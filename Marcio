@@ -1,0 +1,69 @@
+[
+   {
+      "id":"#Device1",
+      "elements":[
+         {
+            "type":"parameterList",
+            "data":[
+               {
+                  "status":"red",
+                  "label":"FP Yield",
+                  "value":"13.82 %"
+               },
+               {
+                  "status":"yellow",
+                  "label":"Final Yield",
+                  "value":"37.82 %"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "id":"#Device2",
+      "elements":[
+         {
+            "type":"parameterList",
+            "data":[
+               {
+                  "status":"red",
+                  "label":"FP Yield",
+                  "value":"13.82 %"
+               },
+               {
+                  "status":"yellow",
+                  "label":"Final Yield",
+                  "value":"37.82 %"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "id":"#iFrame1",
+      "elements":[
+         {
+            "type":"iframe",
+            "data":{
+               "url":"https://api.stockdio.com/visualization/financial/charts/v1/HistoricalPrices?app-key=&symbol=NOW&displayPrices=Area&dividends=true&splits=true&palette=Financial-Light",
+               "width":"300px",
+               "height":"100px",
+               "refreshRate":100
+            }
+         }
+      ]
+   },
+   {
+      "id":"#html1",
+      "elements":[
+         {
+            "type":"html",
+            "data":{
+               "html":"<div>Here comes the text and an image <br><img src='https://api.viewar.com/templates/custom/navigation/displayfile?storage=com.test.umgebung&id=619cd55880afe'></div>",
+               "width":"300px",
+               "height":"100px"
+            }
+         }
+      ]
+   }
+]
