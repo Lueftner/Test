@@ -1,12 +1,1 @@
-{
-      "elements":[
-         {
-            "type":"html",
-            "data":{
-               "html":"<div>Here comes the text and an image <br><img src='http://https://api.viewar.com/templates/custom/navigation/displayfile?storage=com.test.umgebung&id=61923cd47e087'></div>",
-               "width":"300px",
-               "height":"100px"
-            }
-         }
-      ]
-   }
+{"elements":[{"type":"parameterList","data":[{"status":"green","label":"Cartridge levels","value":"99%","time":"07:12:30"},{"status":"green","label":"Paper load","value":"341\/500","time":"07:12:30"}]}]}
